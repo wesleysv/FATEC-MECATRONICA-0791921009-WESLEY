@@ -11,7 +11,7 @@ ra = float ((rab*rac)/(rab+rac+rbc))
 rb = float ((rab*rbc)/(rab+rac+rbc))
 rc = float ((rac*rbc)/(rab+rac+rbc))
 
-print("RA=\t RB=\n RC=\n",ra,rb,rc))
+print("RA=\t RB=\t RC=\t",ra,rb,rc))
 
 elif opcao == 2:
   print ("triagulo para estrela")
@@ -22,7 +22,7 @@ elif opcao == 2:
  rac = float (((ra*rc) + (rc*rb) + (rb*ra))/(rb))
  rbc = float (((ra*rc) + (rc*rb) + (rb*ra))/(ra))
 
-print("Rab=\t RAC=\n RBC=\n",ra,rb,rc)
+print("Rab=\t RAC=\t RBC=\t",ra,rb,rc)
 
 else:
-  print("não exiete essa opcao.")
+  print("não existe essa opcao.")
